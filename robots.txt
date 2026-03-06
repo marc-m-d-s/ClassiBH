@@ -3,4 +3,4 @@ Allow: /
 Disallow: /?s=
 Disallow: /?search=
 
-Sitemap: https://classibh.com.br/sitemap.xml
+Sitemap: https://classibh.netlify.app/sitemap.xml
