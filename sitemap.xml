@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página Principal -->
+  <url>
+    <loc>https://classibh.com.br/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Categorias (Silos de Serviço) -->
+  <url>
+    <loc>https://classibh.com.br/eletricistas-bh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://classibh.com.br/pedreiros-bh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://classibh.com.br/encanadores-bh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://classibh.com.br/diaristas-bh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bairros (Silos Geográficos) -->
+  <url><loc>https://classibh.com.br/alipio-de-melo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/alto-barroca</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/anchieta</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/aparecida</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/bandeirantes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/barreiro</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/barro-preto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/belvedere</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/betania</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/buritis</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/caicara</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/castelo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/cidade-nova</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/concordia</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/coracao-eucaristico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/cruzeiro</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/dona-clara</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/estoril</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/fernao-dias</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/floresta</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/funcionarios</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/grajau</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/gutierrez</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/horto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/ipiranga</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/itapoa</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/jaragua</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/lourdes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/luxemburgo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/manacas</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/mangabeiras</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/nova-granada</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/nova-suica</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/ouro-preto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/padre-eustaquio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/palmares</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/pampulha</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/planalto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/prado</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/sagrada-familia</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santa-amelia</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santa-efigenia</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santa-lucia</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santa-tereza</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santo-agostinho</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/santo-antonio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/savassi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/serra</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/sion</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/uniao</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://classibh.com.br/venda-nova</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
