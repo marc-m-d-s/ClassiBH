@@ -4,79 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <!-- SEO GLOBAL - DOMINAÇÃO BELO HORIZONTE -->
-    <title>ClassiBH | Eletricistas, Pedreiros, Encanadores e Diaristas em Belo Horizonte</title>
-    <meta name="description" content="O guia definitivo para encontrar eletricistas, pedreiros, encanadores e diaristas em BH. Contrate profissionais verificados em todos os bairros de Belo Horizonte diretamente pelo WhatsApp.">
-    <meta name="keywords" content="eletricista bh, pedreiro belo horizonte, diarista bh, encanador bh, serviços residenciais bh, reformas bh, bueiro entupido bh, faxina bh">
+    <!-- CSP INDUSTRIAL FIX: Permite JIT Tailwind e execuções seguras -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://unpkg.com; style-src * 'unsafe-inline'; img-src * data: blob:; connect-src *;">
+
+    <!-- QUANTUM ENGINE: RESOURCE HINTING -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    
+    <!-- SEO ELITE - DOMÍNIO NETLIFY ATUALIZADO -->
+    <title>ClassiBH | Profissionais Especializados em Belo Horizonte - 24h</title>
+    <meta name="description" content="Contrate eletricistas, pedreiros e diaristas verificados em Belo Horizonte diretamente pelo WhatsApp. O maior guia de serviços de BH.">
+    <meta name="keywords" content="eletricista bh, pedreiro belo horizonte, diarista bh, encanador bh, reformas bh, contratar profissional bh">
     <meta name="author" content="ClassiBH">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://classibh.com.br">
     
-    <!-- FAVICONS & ICONES DE DISPOSITIVOS (BUSCA NA RAIZ) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1e3a8a">
-    <meta name="msapplication-TileColor" content="#1e3a8a">
+    <!-- Metas de Redes Sociais com novo link -->
+    <meta property="og:site_name" content="ClassiBH">
+    <meta property="og:url" content="https://classibh.netlify.app/">
+    <meta property="og:title" content="ClassiBH | Melhores Profissionais de Belo Horizonte">
+    <meta property="og:description" content="Contato direto via WhatsApp com especialistas em todos os bairros de BH.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://classibh.netlify.app/og-image.png">
     <meta name="theme-color" content="#1e3a8a">
 
-    <!-- MICROSOFT & BING LOCAL SEO (Geo-Siloing) -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://classibh.netlify.app/">
+
+    <!-- BING & MICROSOFT LOCAL SEO -->
     <meta name="geo.region" content="BR-MG">
     <meta name="geo.placename" content="Belo Horizonte">
     <meta name="geo.position" content="-19.912998;-43.940933">
-    <meta name="ICBM" content="-19.912998, -43.940933">
-
-    <!-- OPEN GRAPH / SOCIAL MEDIA -->
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:site_name" content="ClassiBH">
-    <meta property="og:title" content="ClassiBH | Melhores Profissionais de Belo Horizonte">
-    <meta property="og:description" content="Encontre eletricistas, pedreiros e diaristas em BH. Contato direto sem intermediários.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://classibh.com.br">
-    <meta property="og:image" content="https://classibh.com.br/og-image.png">
-
-    <!-- TWITTER CARD -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ClassiBH | Serviços Profissionais em BH">
-    <meta name="twitter:description" content="Contrate especialistas em BH sem taxas extras. Direto no WhatsApp.">
-    <meta name="twitter:image" content="https://classibh.com.br/og-image.png">
 
     <!-- SCRIPTS CORE -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com" fetchpriority="high"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { primary: '#1e3a8a', accent: '#f97316' } } }
+        }
+    </script>
+    <script src="https://unpkg.com/lucide@latest" fetchpriority="low"></script>
 
-    <!-- DADOS ESTRUTURADOS (JSON-LD) - O MELHOR SEO DO MUNDO -->
+    <!-- DADOS ESTRUTURADOS COM NOVO DOMÍNIO -->
     <script type="application/ld+json">
     [
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "ClassiBH",
-            "url": "https://classibh.com.br",
+            "url": "https://classibh.netlify.app/",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://classibh.com.br/?q={search_term_string}",
+                "target": "https://classibh.netlify.app/?q={search_term_string}",
                 "query-input": "required name=search_term_string"
             }
         },
         {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://classibh.com.br/#organization",
-            "name": "ClassiBH - Classificados de BH",
-            "url": "https://classibh.com.br",
-            "logo": "https://classibh.com.br/logo.png",
-            "image": "https://classibh.com.br/og-image.png",
-            "description": "Plataforma líder em Belo Horizonte para contratação de profissionais especializados em reformas e manutenção.",
+            "@id": "https://classibh.netlify.app/#organization",
+            "name": "ClassiBH Serviços BH",
+            "url": "https://classibh.netlify.app/",
+            "logo": "https://classibh.netlify.app/logo.png",
+            "image": "https://classibh.netlify.app/og-image.png",
+            "priceRange": "R$ 100",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Av. Afonso Pena, Centro",
                 "addressLocality": "Belo Horizonte",
                 "addressRegion": "MG",
-                "postalCode": "30130-001",
                 "addressCountry": "BR"
             },
             "geo": {
@@ -84,53 +77,18 @@
                 "latitude": -19.912998,
                 "longitude": -43.940933
             },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "00:00",
-                "closes": "23:59"
-            },
-            "telephone": "+55-31-99999-9999",
-            "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Serviços em Belo Horizonte",
-                "itemListElement": [
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Eletricistas BH" } },
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pedreiros BH" } },
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Encanadores BH" } },
-                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diaristas BH" } }
-                ]
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Como encontrar um profissional no meu bairro em BH?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Basta utilizar a nossa barra de pesquisa superior, digitar o seu bairro e selecionar a categoria desejada. O ClassiBH filtra automaticamente os melhores especialistas próximos de si em BH."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "O ClassiBH cobra comissões sobre os serviços?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Não. O contacto é 100% direto entre o cliente e o profissional via WhatsApp. Não cobramos taxas sobre os serviços realizados."
-                    }
-                }
-            ]
+            "telephone": "+55-38-99959-4185"
         },
         {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Minas Gerais", "item": "https://classibh.com.br" },
-                { "@type": "ListItem", "position": 2, "name": "Belo Horizonte", "item": "https://classibh.com.br" },
-                { "@type": "ListItem", "position": 3, "name": "Profissionais Especializados", "item": "https://classibh.com.br" }
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://classibh.netlify.app/"
+                }
             ]
         }
     ]
@@ -138,36 +96,33 @@
 
     <style>
         .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; height: 4.5em; }
-        input:focus, select:focus, textarea:focus { font-size: 16px !important; }
+        input:focus, select:focus, textarea:focus { font-size: 16px !important; outline: none; border-color: #3b82f6 !important; }
         [data-view] { display: none; }
         [data-view].active { display: block; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .animate-fade { animation: fadeIn 0.5s ease-out forwards; }
-        .footer-link:hover { color: #f97316; transform: translateX(4px); }
+        .sr-only-seo { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
     </style>
 </head>
 <body class="bg-slate-50 font-sans text-slate-900 selection:bg-orange-500 selection:text-white overflow-x-hidden">
 
-    <!-- HEADER SEMÂNTICO -->
+    <div class="sr-only-seo">
+        <h1>Serviços de Manutenção em Belo Horizonte</h1>
+        <p>Eletricista, pedreiro, encanador e diarista em BH. Atendimento em Savassi, Pampulha, Buritis e Castelo.</p>
+    </div>
+
     <header class="bg-blue-900 text-white shadow-xl sticky top-0 z-[60] border-b border-blue-950/30 backdrop-blur-md">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center gap-2 cursor-pointer group" onclick="app.resetFilters()">
-                <div class="relative w-10 h-10 flex items-center justify-center">
-                    <img src="/logo.png" alt="Logo BH" class="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-300" onerror="this.style.display='none'" onload="this.classList.remove('opacity-0')">
-                    <div class="bg-orange-500 text-white px-2 py-0.5 rounded-md font-black text-xl shadow-lg transition-transform group-hover:scale-105 z-10">BH</div>
-                </div>
+            <div class="flex items-center gap-2 cursor-pointer" onclick="app.resetFilters()">
+                <div class="bg-orange-500 text-white px-2 py-0.5 rounded-md font-black text-xl shadow-lg">BH</div>
                 <div class="flex flex-col leading-none">
-                    <h2 class="text-lg font-black tracking-tighter uppercase italic m-0 p-0">ClassiBH</h2>
+                    <span class="text-lg font-black tracking-tighter uppercase italic">ClassiBH</span>
                     <span class="text-[7px] font-bold uppercase tracking-[0.2em] text-blue-300">Belo Horizonte</span>
                 </div>
             </div>
-            
-            <nav class="hidden md:flex gap-6 items-center text-[10px] font-black uppercase tracking-widest text-blue-100" aria-label="Menu principal">
-                <button onclick="app.setView('home')" class="nav-link hover:text-white transition-colors" data-nav="home">Início</button>
-                <button onclick="app.setView('como-funciona')" class="nav-link hover:text-white transition-colors" data-nav="como-funciona">Ajuda</button>
-                <a href="#anunciar" onclick="app.setView('home'); app.scrollTo('anunciar')" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-black hover:bg-orange-600 shadow-md">Anunciar</a>
+            <nav class="hidden md:flex gap-6 items-center text-[10px] font-black uppercase tracking-widest text-blue-100">
+                <button onclick="app.setView('home')" data-nav="home">Início</button>
+                <button onclick="app.setView('como-funciona')" data-nav="como-funciona">Ajuda</button>
+                <a href="#anunciar" onclick="app.setView('home'); app.scrollTo('anunciar')" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-black border-b-2 border-orange-700">Anunciar</a>
             </nav>
-            
             <div class="md:hidden flex items-center gap-2">
                 <button onclick="app.setView('como-funciona')" class="text-[9px] font-black uppercase text-blue-100 border border-white/20 px-2 py-1.5 rounded">Ajuda</button>
                 <a href="#anunciar" onclick="app.setView('home'); app.scrollTo('anunciar')" class="bg-orange-500 text-white px-3 py-1.5 rounded-lg font-black text-[9px] uppercase shadow-lg">Anuncie</a>
@@ -176,15 +131,12 @@
     </header>
 
     <!-- VIEW: HOME -->
-    <div data-view="home" class="active animate-fade">
-        <!-- HERO & BUSCA -->
+    <div data-view="home" class="active">
         <section class="bg-blue-900 text-white pt-8 pb-12 px-4 relative overflow-hidden text-center">
             <div class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
             <div class="container mx-auto max-w-5xl relative z-10">
                 <h1 id="main-title" class="text-3xl md:text-6xl font-black mb-3 leading-tight tracking-tighter uppercase italic">Serviços em <span class="text-orange-400">Belo Horizonte</span></h1>
-                <p class="text-blue-200 text-[10px] md:text-sm font-bold uppercase tracking-[0.3em] mb-8 opacity-80 italic">Encontre especialistas de confiança perto de você</p>
-                
-                <!-- BARRA DE BUSCA -->
+                <p class="text-blue-200 text-[10px] md:text-sm font-bold uppercase tracking-[0.3em] mb-8 opacity-80 italic text-center">Eletricistas, Pedreiros, Encanadores e Diaristas em BH</p>
                 <div class="bg-white p-1 rounded-2xl md:rounded-[3rem] shadow-2xl flex flex-col md:flex-row gap-1 max-w-4xl mx-auto border-4 border-white/10">
                     <div class="flex-[2] flex items-center px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100">
                         <i data-lucide="search" class="text-blue-600 mr-2 shrink-0 w-5 h-5"></i>
@@ -192,94 +144,67 @@
                     </div>
                     <div class="flex-1 flex items-center px-4 py-3">
                         <i data-lucide="map-pin" class="text-orange-500 mr-2 shrink-0 w-5 h-5"></i>
-                        <input type="text" id="search-neighborhood" placeholder="Em qual bairro de BH?" class="w-full outline-none text-slate-800 font-bold placeholder:text-slate-400 text-sm md:text-base bg-transparent" oninput="app.handleSearch()">
+                        <input type="text" id="search-neighborhood" placeholder="Qual bairro em BH?" class="w-full outline-none text-slate-800 font-bold placeholder:text-slate-400 text-sm md:text-base bg-transparent" oninput="app.handleSearch()">
                     </div>
-                    <button onclick="app.scrollTo('feed')" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl md:rounded-[2rem] font-black shadow-lg text-sm m-0.5 uppercase tracking-tighter active:scale-95 transition-all">Buscar BH</button>
+                    <button onclick="app.scrollTo('feed')" class="bg-blue-600 text-white px-8 py-3 rounded-xl md:rounded-[2rem] font-black shadow-lg text-sm m-0.5 uppercase tracking-tighter">Buscar</button>
                 </div>
-                
-                <!-- CATEGORIAS -->
-                <div class="mt-8 flex flex-wrap justify-center gap-2" id="category-filters"></div>
+                <div class="mt-8 flex flex-wrap justify-center gap-2" id="category-filters" role="tablist"></div>
             </div>
         </section>
 
-        <!-- FEED -->
         <main id="feed" class="container mx-auto px-4 -mt-6 relative z-20 pb-20">
             <div class="flex justify-between items-center mb-6 bg-white p-3.5 rounded-2xl shadow-md border border-slate-100">
               <h2 id="results-count" class="text-slate-900 font-black text-xs md:text-sm uppercase tracking-tighter flex items-center gap-2">
                 <div class="w-2 h-6 bg-orange-500 rounded-full"></div>
                 Profissionais Disponíveis
               </h2>
-              <button id="btn-clear" onclick="app.resetFilters()" class="hidden text-red-500 text-[10px] font-black uppercase tracking-widest items-center gap-1 hover:underline">
+              <button id="btn-clear" onclick="app.resetFilters()" class="hidden text-red-500 text-[10px] font-black uppercase tracking-widest items-center gap-1">
                 <i data-lucide="x" class="w-3 h-3"></i> Limpar Filtros
               </button>
             </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="ads-grid"></div>
-
-            <!-- SEO SILO GEOGRÁFICO -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="ads-grid" aria-live="polite"></div>
             <section class="mt-20 border-t border-slate-200 pt-16">
                 <h4 class="text-slate-900 font-black text-xs md:text-sm uppercase tracking-[0.3em] mb-10 flex items-center justify-center md:justify-start gap-3">
-                    <i data-lucide="map" class="text-blue-600 w-5 h-5"></i> Bairros Indexados em Belo Horizonte
+                    <i data-lucide="map" class="text-blue-600 w-5 h-5"></i> Bairros de Belo Horizonte
                 </h4>
                 <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2" id="neighborhood-silo"></div>
             </section>
         </main>
 
-        <!-- FORMULÁRIO -->
         <section id="anunciar" class="container mx-auto px-4 mb-40">
-            <div class="max-w-6xl mx-auto bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-slate-100 flex flex-col group transition-transform duration-500 hover:shadow-orange-500/10">
-                <div class="bg-blue-900 p-8 text-white flex flex-col md:flex-row items-center justify-between relative overflow-hidden text-center md:text-left">
+            <div class="max-w-6xl mx-auto bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-slate-100 flex flex-col group">
+                <div class="bg-blue-900 p-8 text-white flex flex-col md:flex-row items-center justify-between relative overflow-hidden">
                     <div class="absolute top-0 right-0 w-64 h-64 bg-orange-500 rounded-full -mr-32 -mt-32 opacity-20 blur-3xl"></div>
-                    <div class="relative z-10">
+                    <div>
                         <h3 class="text-3xl font-black uppercase tracking-tighter italic">Quer Clientes em BH?</h3>
-                        <p class="text-blue-300 font-black text-[9px] uppercase tracking-[0.4em] opacity-80 italic">Anuncie seu serviço e apareça no topo do Google</p>
+                        <p class="text-blue-300 font-black text-[9px] uppercase tracking-[0.4em] opacity-80 italic italic">Apareça no topo por R$ 100/mês</p>
                     </div>
-                    <div class="relative z-10 bg-white/10 px-6 py-2.5 rounded-2xl border border-white/10 backdrop-blur-md mt-4 md:mt-0 flex items-center gap-4">
-                        <div class="flex flex-col leading-none">
-                            <span class="text-[8px] font-black uppercase text-blue-400 tracking-widest">Investimento</span>
-                            <span class="text-2xl font-black text-orange-400 uppercase tracking-tighter">R$ 50<small class="text-xs font-bold text-blue-200 ml-1">/mês</small></span>
+                    <div class="bg-white/10 px-6 py-2.5 rounded-2xl border border-white/10 backdrop-blur-md mt-4 md:mt-0 flex items-center gap-4">
+                        <div class="flex flex-col leading-none text-left">
+                            <span class="text-[8px] font-black uppercase text-blue-400">Plano Único</span>
+                            <span class="text-2xl font-black text-orange-400 uppercase tracking-tighter">R$ 100<small class="text-xs font-bold text-blue-200 ml-1">/mês</small></span>
                         </div>
                         <i data-lucide="shield-check" class="text-green-500 w-6 h-6"></i>
                     </div>
                 </div>
-
                 <div class="p-8 md:p-12 bg-white relative text-left">
                     <form onsubmit="app.handleAnnounce(event)" class="space-y-6 max-w-5xl mx-auto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div class="space-y-1.5">
-                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">Seu Nome / Empresa</label>
-                                <input required type="text" id="form-name" placeholder="Ex: João Elétrica BH" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none focus:ring-4 focus:ring-blue-100 shadow-inner transition-all">
+                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">Nome Profissional</label>
+                                <input required type="text" id="form-name" placeholder="Ex: João Elétrica BH" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none focus:ring-4 focus:ring-blue-100 shadow-inner">
                             </div>
                             <div class="space-y-1.5">
-                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">WhatsApp BH (31)</label>
-                                <input required type="text" id="form-phone" placeholder="31 9XXXXXXXX" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none focus:ring-4 focus:ring-blue-100 shadow-inner transition-all">
+                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">Bairro BH</label>
+                                <input required type="text" id="form-neighborhood" placeholder="Ex: Savassi, Buritis..." class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none focus:ring-4 focus:ring-blue-100 shadow-inner">
                             </div>
                         </div>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="space-y-1.5">
-                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">Seu Bairro em BH</label>
-                                <input required type="text" id="form-neighborhood" placeholder="Ex: Savassi, Buritis..." class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none focus:ring-4 focus:ring-blue-100 shadow-inner transition-all">
-                            </div>
-                            <div class="space-y-1.5">
-                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic">Sua Categoria</label>
-                                <div class="relative">
-                                    <select id="form-category" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none cursor-pointer appearance-none shadow-inner focus:ring-4 focus:ring-blue-100"></select>
-                                    <i data-lucide="chevron-down" class="absolute right-6 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="space-y-1.5">
-                            <div class="flex justify-between items-end px-3">
-                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic italic">Descrição Premium (Google SEO)</label>
-                                <span id="char-counter" class="text-[10px] font-black px-3 py-1 rounded-full bg-slate-100 text-slate-400">0/160</span>
-                            </div>
-                            <textarea required id="form-description" oninput="app.updateCounter(this)" placeholder="Descreva os seus serviços com clareza..." rows="2" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none resize-none shadow-inner leading-relaxed focus:ring-4 focus:ring-blue-100 transition-all"></textarea>
+                            <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-3 italic italic">Descrição do Serviço (SEO Google)</label>
+                            <textarea required id="form-description" placeholder="Descreva os seus serviços..." rows="2" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-black text-base outline-none resize-none leading-relaxed focus:ring-4 focus:ring-blue-100 shadow-inner"></textarea>
                         </div>
-
-                        <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-black py-5 rounded-2xl flex items-center justify-center gap-4 transition-all active:scale-95 shadow-xl border-b-8 border-orange-700 text-lg uppercase italic tracking-widest group">
-                            CRIAR ANÚNCIO EM BH <i data-lucide="message-circle" class="w-6 h-6 fill-white transition-transform group-hover:rotate-12"></i>
+                        <button type="submit" class="w-full bg-orange-500 text-white font-black py-5 rounded-2xl flex items-center justify-center gap-4 active:scale-95 shadow-xl border-b-8 border-orange-700 text-lg uppercase italic tracking-widest">
+                            PUBLICAR NO ZAP <i data-lucide="message-circle" class="w-6 h-6 fill-white"></i>
                         </button>
                     </form>
                 </div>
@@ -288,99 +213,57 @@
     </div>
 
     <!-- VIEW: COMO FUNCIONA -->
-    <div data-view="como-funciona" class="animate-fade">
+    <div data-view="como-funciona">
         <main class="container mx-auto px-4 py-16 max-w-4xl text-center pb-40">
-            <h2 class="text-4xl md:text-7xl font-black text-slate-900 tracking-tighter mb-10 uppercase italic leading-none text-center">Como o <span class="text-blue-700">ClassiBH</span> Ajuda BH?</h2>
+            <h2 class="text-4xl md:text-7xl font-black text-slate-900 tracking-tighter mb-10 uppercase italic leading-none text-center">Como <span class="text-blue-700">Funciona</span>?</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-16 px-4">
                <div class="bg-white p-8 rounded-[3rem] shadow-2xl border border-slate-100">
                  <i data-lucide="search" class="text-orange-500 mb-6 w-12 h-12"></i>
-                 <h3 class="text-2xl font-black mb-4 uppercase italic">Busca Local</h3>
-                 <p class="text-slate-600 font-bold uppercase tracking-tight leading-relaxed text-xs">Pesquise profissionais verificados em cada região de Belo Horizonte.</p>
+                 <h3 class="text-2xl font-black mb-4 uppercase italic italic">Busca Local</h3>
+                 <p class="text-slate-600 font-bold uppercase tracking-tight leading-relaxed text-xs">Pesquise profissionais em Belo Horizonte sem intermediários.</p>
                </div>
                <div class="bg-blue-900 p-8 rounded-[3rem] shadow-2xl text-white">
                  <i data-lucide="rocket" class="text-orange-500 mb-6 w-12 h-12"></i>
-                 <h3 class="text-2xl font-black mb-4 uppercase italic">Visibilidade Master</h3>
-                 <p class="text-blue-100 font-bold uppercase tracking-tight leading-relaxed text-xs">Sua empresa terá um anúncio otimizado por apenas R$ 50 mensais.</p>
+                 <h3 class="text-2xl font-black mb-4 uppercase italic italic">Marketing Elite</h3>
+                 <p class="text-blue-100 font-bold uppercase tracking-tight leading-relaxed text-xs">Sua empresa anunciada com o melhor SEO do mundo por R$ 100/mês.</p>
                </div>
             </div>
-            <button onclick="app.setView('home')" class="text-blue-700 font-black uppercase text-xs tracking-[0.4em] hover:underline">Voltar aos Classificados</button>
+            <button onclick="app.setView('home')" class="text-blue-700 font-black uppercase text-xs tracking-[0.4em] hover:underline text-center block w-full">Voltar ao Início</button>
         </main>
     </div>
 
-    <!-- FOOTER EXPANDIDO (ULTRA SEO) -->
-    <footer class="bg-slate-950 text-slate-400 py-20 px-4 border-t border-white/5 overflow-hidden">
-        <div class="container mx-auto">
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-20 px-4 border-t border-white/5">
+        <div class="container mx-auto text-center md:text-left">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-                <!-- COLUNA 1: MARCA & AUTORIDADE -->
                 <div>
-                    <div class="flex items-center gap-3 mb-6 text-white">
-                        <div class="bg-orange-500 px-2 py-0.5 rounded-lg font-black text-3xl shadow-2xl shadow-orange-500/20">BH</div>
-                        <h2 class="text-3xl font-black tracking-tighter uppercase italic">ClassiBH</h2>
+                    <div class="flex items-center gap-3 mb-6 text-white justify-center md:justify-start">
+                        <div class="bg-orange-500 px-2 py-0.5 rounded-lg font-black text-3xl shadow-2xl">BH</div>
+                        <h2 class="text-3xl font-black tracking-tighter uppercase italic m-0">ClassiBH</h2>
                     </div>
-                    <p class="text-xs font-black uppercase tracking-[0.2em] leading-relaxed mb-8 italic">
-                        O maior diretório de serviços especializados de Belo Horizonte. Conectando moradores de BH aos melhores profissionais da capital desde 2026.
-                    </p>
-                    <div class="flex gap-4 opacity-50">
-                        <i data-lucide="shield-check" class="w-6 h-6"></i>
-                        <i data-lucide="award" class="w-6 h-6"></i>
-                        <i data-lucide="verified" class="w-6 h-6"></i>
-                    </div>
+                    <p class="text-xs font-black uppercase tracking-[0.2em] leading-relaxed mb-8 italic italic">Conectando Belo Horizonte aos melhores profissionais.</p>
                 </div>
-
-                <!-- COLUNA 2: CATEGORIAS -->
                 <div>
-                    <h4 class="text-white font-black mb-8 uppercase tracking-[0.4em] text-[10px] underline decoration-orange-500 underline-offset-8 italic">Serviços BH</h4>
-                    <ul class="space-y-4 text-[11px] font-black uppercase tracking-widest">
-                        <li><button onclick="app.setCategory('eletricistas')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="zap" class="w-3 h-3 text-orange-500"></i> Eletricistas BH</button></li>
-                        <li><button onclick="app.setCategory('pedreiros')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="hammer" class="w-3 h-3 text-orange-500"></i> Pedreiros BH</button></li>
-                        <li><button onclick="app.setCategory('encanadores')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="droplets" class="w-3 h-3 text-orange-500"></i> Encanadores BH</button></li>
-                        <li><button onclick="app.setCategory('diaristas')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="user" class="w-3 h-3 text-orange-500"></i> Diaristas BH</button></li>
-                    </ul>
+                    <h4 class="text-white font-black mb-8 uppercase tracking-[0.4em] text-[10px] underline decoration-orange-500 underline-offset-8 italic">Categorias</h4>
+                    <ul class="space-y-4 text-[11px] font-black uppercase tracking-widest" id="footer-categories"></ul>
                 </div>
-
-                <!-- COLUNA 3: REGIOES DE DESTAQUE -->
                 <div>
-                    <h4 class="text-white font-black mb-8 uppercase tracking-[0.4em] text-[10px] underline decoration-orange-500 underline-offset-8 italic">Regiões Master</h4>
-                    <ul class="space-y-4 text-[11px] font-black uppercase tracking-widest">
-                        <li><button onclick="app.setNeighborhood('Savassi')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3 text-blue-500"></i> Savassi & Centro</button></li>
-                        <li><button onclick="app.setNeighborhood('Pampulha')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3 text-blue-500"></i> Região Pampulha</button></li>
-                        <li><button onclick="app.setNeighborhood('Buritis')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3 text-blue-500"></i> Buritis & Estoril</button></li>
-                        <li><button onclick="app.setNeighborhood('Lourdes')" class="footer-link transition-all flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3 text-blue-500"></i> Lourdes & Sion</button></li>
-                    </ul>
-                </div>
-
-                <!-- COLUNA 4: CONTACTO -->
-                <div>
-                    <h4 class="text-white font-black mb-8 uppercase tracking-[0.4em] text-[10px] underline decoration-orange-500 underline-offset-8 text-center md:text-left italic">Central de Apoio</h4>
-                    <div class="space-y-6 text-[10px] font-black uppercase tracking-[0.2em] text-center md:text-left">
-                        <div>
-                            <p class="text-white mb-1">Localização Principal:</p>
-                            <p class="opacity-60 italic">Av. Afonso Pena, Centro<br>Belo Horizonte - MG</p>
-                        </div>
-                        <div>
-                            <p class="text-white mb-2">WhatsApp Suporte:</p>
-                            <div class="bg-white/5 border-l-4 border-orange-500 py-3 px-4 inline-block hover:bg-white/10 transition-all cursor-pointer text-orange-400 italic font-black">Central Anunciante</div>
-                        </div>
+                    <h4 class="text-white font-black mb-8 uppercase tracking-[0.4em] text-[10px] underline decoration-orange-500 underline-offset-8 italic">Suporte BH</h4>
+                    <div class="bg-white/5 border-l-4 border-orange-500 py-3 px-4 text-orange-400 font-black text-xs italic italic">
+                        (38) 99959-4185
                     </div>
                 </div>
             </div>
-
-            <!-- BARRA FINAL -->
-            <div class="pt-12 border-t border-white/5 flex flex-col items-center gap-4 text-[9px] font-black uppercase tracking-[0.6em] opacity-30 text-center">
-                <span>© 2026 CLASSIBH | Todos os direitos reservados.</span>
-                <span class="text-[8px] opacity-60">Plataforma de anúncios locais em Belo Horizonte, Minas Gerais.</span>
+            <div class="pt-12 border-t border-white/5 text-[9px] font-black uppercase tracking-[0.6em] opacity-30 text-center">
+                © 2026 CLASSIBH | Belo Horizonte - MG
             </div>
         </div>
     </footer>
 
-    <!-- LÓGICA DO APLICATIVO -->
     <script>
         const app = {
             state: {
-                view: 'home',
-                searchTerm: '',
-                selectedNeighborhood: '',
-                selectedCategory: 'todos',
+                view: 'home', searchTerm: '', selectedNeighborhood: '', selectedCategory: 'todos',
                 categories: [
                     { id: 'eletricistas', name: 'Eletricistas', icon: '<i data-lucide="zap" class="w-3 h-3"></i>' },
                     { id: 'pedreiros', name: 'Pedreiros', icon: '<i data-lucide="hammer" class="w-3 h-3"></i>' },
@@ -389,172 +272,72 @@
                 ],
                 neighborhoods: ["Anchieta", "Alto Barroca", "Barreiro", "Belvedere", "Buritis", "Castelo", "Cidade Nova", "Floresta", "Funcionários", "Gutierrez", "Horto", "Ipiranga", "Lourdes", "Luxemburgo", "Mangabeiras", "Nova Suíça", "Ouro Preto", "Padre Eustáquio", "Palmares", "Pampulha", "Planalto", "Prado", "Sagrada Família", "Santa Amélia", "Santa Efigênia", "Santa Lúcia", "Santa Tereza", "Santo Agostinho", "Santo Antônio", "Savassi", "Serra", "Sion", "União", "Venda Nova"].sort(),
                 ads: [
-                    { id: 1, category: 'eletricistas', name: 'João Elétrica BH Master', phone: '31988887777', neighborhood: 'Savassi', desc: 'Especialista em padrão CEMIG, quadros de energia e curto-circuito. Atendimento imediato na Savassi e região.', rating: 4.9, reviews: 124 },
-                    { id: 2, category: 'pedreiros', name: 'Marcos Reformas BH', phone: '31977776666', neighborhood: 'Lourdes', desc: 'Acabamento fino em porcelanato e reformas estruturais residenciais. Pedreiro com 15 anos de experiência.', rating: 5.0, reviews: 88 },
-                    { id: 3, category: 'encanadores', name: 'Hidráulica Express BH', phone: '31966665555', neighborhood: 'Buritis', desc: 'Caça vazamentos e limpeza de caixa d\'água. Bombeiro hidráulico certificado em Belo Horizonte.', rating: 4.8, reviews: 56 },
-                    { id: 4, category: 'diaristas', name: 'Ana Limpeza Profissional', phone: '31955554444', neighborhood: 'Castelo', desc: 'Limpeza residencial rigorosa e detalhada. Especialista em pós-obra e organização no bairro Castelo.', rating: 5.0, reviews: 210 }
+                    { id: 1, category: 'eletricistas', name: 'João Elétrica BH Master', phone: '31988887777', neighborhood: 'Savassi', desc: 'Especialista em padrão CEMIG e quadros de energia em BH.' },
+                    { id: 2, category: 'pedreiros', name: 'Marcos Reformas BH', phone: '31977776666', neighborhood: 'Lourdes', desc: 'Acabamento fino em porcelanato em Belo Horizonte.' },
+                    { id: 3, category: 'encanadores', name: 'Hidráulica Express BH', phone: '31966665555', neighborhood: 'Buritis', desc: 'Caça vazamentos e limpeza de caixa d\'água em BH.' },
+                    { id: 4, category: 'diaristas', name: 'Ana Limpeza Profissional', phone: '31955554444', neighborhood: 'Castelo', desc: 'Limpeza residencial e pós-obra em Belo Horizonte.' }
                 ]
             },
-
             init() {
                 this.renderCategories();
                 this.renderBairrosSilo();
                 this.renderAds();
                 lucide.createIcons();
             },
-
-            setView(viewName) {
-                this.state.view = viewName;
+            setView(v) {
+                this.state.view = v;
                 document.querySelectorAll('[data-view]').forEach(el => el.classList.remove('active'));
-                const targetView = document.querySelector(`[data-view="${viewName}"]`);
-                if(targetView) targetView.classList.add('active');
-                
-                document.querySelectorAll('[data-nav]').forEach(el => el.classList.remove('text-orange-400', 'font-black'));
-                const nav = document.querySelector(`[data-nav="${viewName}"]`);
-                if(nav) nav.classList.add('text-orange-400', 'font-black');
-                window.scrollTo({top: 0, behavior: 'smooth'});
+                const target = document.querySelector(`[data-view="${v}"]`);
+                if(target) target.classList.add('active');
+                window.scrollTo(0,0);
                 lucide.createIcons();
             },
-
             renderCategories() {
-                const container = document.getElementById('category-filters');
-                const formSelect = document.getElementById('form-category');
-                
-                container.innerHTML = this.state.categories.map(cat => `
-                    <button onclick="app.setCategory('${cat.id}')" id="cat-${cat.id}" class="cat-btn flex items-center gap-2 px-3 py-2 rounded-xl border-2 transition-all text-[9px] font-black uppercase tracking-widest bg-white/5 border-white/20 text-white hover:bg-white/15">
-                        ${cat.icon} ${cat.name}
-                    </button>
-                `).join('');
-
-                formSelect.innerHTML = this.state.categories.map(cat => `<option value="${cat.id}">${cat.name}</option>`).join('');
+                const c = document.getElementById('category-filters');
+                const f = document.getElementById('footer-categories');
+                if(!c || !f) return;
+                c.innerHTML = this.state.categories.map(cat => `<button onclick="app.setCategory('${cat.id}')" id="cat-${cat.id}" class="cat-btn flex items-center gap-2 px-3 py-2 rounded-xl border-2 text-[9px] font-black uppercase tracking-widest bg-white/5 border-white/20 text-white" role="tab">${cat.icon} ${cat.name}</button>`).join('');
+                f.innerHTML = this.state.categories.map(cat => `<li><button onclick="app.setCategory('${cat.id}')" class="hover:text-orange-500 transition-colors">${cat.name} BH</button></li>`).join('');
             },
-
             renderBairrosSilo() {
                 const container = document.getElementById('neighborhood-silo');
-                container.innerHTML = this.state.neighborhoods.map(b => `
-                    <button onclick="app.setNeighborhood('${b}')" class="bg-white hover:bg-blue-900 border border-slate-200 p-2.5 rounded-xl text-left transition-all group shadow-sm">
-                        <span class="text-[10px] font-black block truncate group-hover:text-white">${b}</span>
-                    </button>
-                `).join('');
+                if(container) container.innerHTML = this.state.neighborhoods.map(b => `<button onclick="app.setNeighborhood('${b}')" class="bg-white border border-slate-200 p-2.5 rounded-xl text-left shadow-sm hover:border-blue-900 transition-colors"><span class="text-[10px] font-black block truncate">${b}</span></button>`).join('');
             },
-
             setCategory(id) {
                 this.state.selectedCategory = this.state.selectedCategory === id ? 'todos' : id;
-                document.querySelectorAll('.cat-btn').forEach(btn => {
-                    btn.classList.remove('bg-white', 'text-blue-900', 'shadow-xl', 'scale-110');
-                    btn.classList.add('bg-white/5', 'text-white');
-                });
-                if(this.state.selectedCategory !== 'todos') {
-                    const active = document.getElementById(`cat-${id}`);
-                    active.classList.add('bg-white', 'text-blue-900', 'shadow-xl', 'scale-110');
-                    active.classList.remove('bg-white/5', 'text-white');
+                document.querySelectorAll('.cat-btn').forEach(btn => { btn.classList.remove('bg-white', 'text-blue-900'); btn.classList.add('bg-white/5', 'text-white'); });
+                if(this.state.selectedCategory !== 'todos') { 
+                    const a = document.getElementById(`cat-${id}`); 
+                    if(a) { a.classList.add('bg-white', 'text-blue-900'); a.classList.remove('bg-white/5', 'text-white'); }
                 }
                 this.renderAds();
             },
-
-            setNeighborhood(name) {
-                this.state.selectedNeighborhood = name;
-                const input = document.getElementById('search-neighborhood');
-                if(input) input.value = name;
-                this.renderAds();
-                this.scrollTo('feed');
-            },
-
-            handleSearch() {
-                this.state.searchTerm = document.getElementById('search-term').value;
-                this.state.selectedNeighborhood = document.getElementById('search-neighborhood').value;
-                this.renderAds();
-            },
-
+            setNeighborhood(n) { this.state.selectedNeighborhood = n; const i = document.getElementById('search-neighborhood'); if(i) i.value = n; this.renderAds(); this.scrollTo('feed'); },
+            handleSearch() { this.state.searchTerm = document.getElementById('search-term').value; this.state.selectedNeighborhood = document.getElementById('search-neighborhood').value; this.renderAds(); },
             renderAds() {
                 const grid = document.getElementById('ads-grid');
-                const count = document.getElementById('results-count');
-                const clearBtn = document.getElementById('btn-clear');
-                
+                if(!grid) return;
                 const filtered = this.state.ads.filter(ad => {
-                    const term = this.state.searchTerm.toLowerCase();
-                    const nb = this.state.selectedNeighborhood.toLowerCase();
-                    const mSearch = ad.name.toLowerCase().includes(term) || ad.desc.toLowerCase().includes(term);
-                    const mCat = this.state.selectedCategory === 'todos' || ad.category === this.state.selectedCategory;
-                    const mNb = !nb || ad.neighborhood.toLowerCase().includes(nb);
-                    return mSearch && mCat && mNb;
+                    const t = this.state.searchTerm.toLowerCase();
+                    const n = this.state.selectedNeighborhood.toLowerCase();
+                    return (ad.name.toLowerCase().includes(t) || ad.desc.toLowerCase().includes(t)) && (this.state.selectedCategory === 'todos' || ad.category === this.state.selectedCategory) && (!n || ad.neighborhood.toLowerCase().includes(n));
                 });
-
-                grid.innerHTML = filtered.map(ad => `
-                    <article class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col group overflow-hidden relative">
-                        <div class="absolute top-0 right-0 bg-blue-900 text-white px-4 py-1.5 rounded-bl-[1.5rem] text-[8px] font-black uppercase tracking-widest z-10 group-hover:bg-orange-500 transition-colors">${ad.category}</div>
-                        <div class="mb-4">
-                            <h3 class="font-black text-lg text-slate-900 uppercase leading-none tracking-tight group-hover:text-blue-700 transition-colors truncate pr-12">${ad.name}</h3>
-                            <div class="flex items-center text-orange-600 font-black text-[10px] mt-2 uppercase tracking-widest bg-orange-50 w-fit px-2 py-0.5 rounded-full border border-orange-100 italic">
-                                <i data-lucide="map-pin" class="mr-1 w-3 h-3"></i> ${ad.neighborhood}, BH
-                            </div>
-                        </div>
-                        <p class="text-slate-600 text-[13px] mb-8 line-clamp-3 font-bold border-l-4 border-blue-100 pl-4 italic">"${ad.desc}"</p>
-                        <div class="flex gap-2 mt-auto">
-                            <a href="https://wa.me/55${ad.phone}" target="_blank" rel="nofollow" class="flex-[3] bg-green-500 hover:bg-green-600 text-white font-black py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all active:scale-95 shadow-lg border-b-4 border-green-700 text-xs uppercase italic">
-                                <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
-                            </a>
-                            <a href="tel:${ad.phone}" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-slate-700 hover:bg-slate-50 transition-all shadow-inner"><i data-lucide="phone" class="w-5 h-5"></i></a>
-                        </div>
-                    </article>
-                `).join('');
-
-                if(filtered.length === 0) {
-                    grid.innerHTML = `<div class="col-span-full py-12 text-center text-slate-400 font-black uppercase italic">Nenhum profissional encontrado em BH</div>`;
-                }
-
-                count.innerHTML = `<div class="w-2 h-6 bg-orange-500 rounded-full"></div> ${filtered.length} Profissionais em BH`;
-                
-                const hasFilters = this.state.selectedNeighborhood || this.state.selectedCategory !== 'todos' || this.state.searchTerm;
-                if(clearBtn) {
-                    clearBtn.classList.toggle('hidden', !hasFilters);
-                    clearBtn.classList.toggle('flex', hasFilters);
-                }
-                
+                grid.innerHTML = filtered.map(ad => `<article class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 flex flex-col group overflow-hidden relative"><div class="absolute top-0 right-0 bg-blue-900 text-white px-4 py-1.5 rounded-bl-[1.5rem] text-[8px] font-black uppercase tracking-widest z-10">${ad.category}</div><div class="mb-4"><h3 class="font-black text-lg text-slate-900 uppercase leading-none tracking-tight truncate pr-12">${ad.name}</h3><div class="flex items-center text-orange-600 font-black text-[10px] mt-2 uppercase tracking-widest bg-orange-50 w-fit px-2 py-0.5 rounded-full border border-orange-100 italic"><i data-lucide="map-pin" class="mr-1 w-3 h-3"></i> ${ad.neighborhood}, BH</div></div><p class="text-slate-600 text-[13px] mb-8 line-clamp-3 font-bold border-l-4 border-blue-100 pl-4 italic italic">"${ad.desc}"</p><div class="flex gap-2 mt-auto"><a href="https://wa.me/5538999594185?text=Olá, vi seu anúncio no ClassiBH e preciso de um serviço em ${ad.neighborhood}." target="_blank" rel="nofollow" class="flex-[3] bg-green-500 text-white font-black py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-lg border-b-4 border-green-700 text-xs uppercase italic"><i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp</a><a href="tel:${ad.phone}" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-slate-700 shadow-inner"><i data-lucide="phone" class="w-5 h-5"></i></a></div></article>`).join('');
+                const count = document.getElementById('results-count');
+                if(count) count.innerHTML = `<div class="w-2 h-6 bg-orange-500 rounded-full"></div> ${filtered.length} Profissionais em BH`;
                 lucide.createIcons();
             },
-
-            resetFilters() {
-                this.state.searchTerm = '';
-                this.state.selectedNeighborhood = '';
-                this.state.selectedCategory = 'todos';
-                const st = document.getElementById('search-term');
-                const sn = document.getElementById('search-neighborhood');
-                if(st) st.value = '';
-                if(sn) sn.value = '';
-                this.setCategory('todos');
-                this.setView('home');
-                this.renderAds();
-            },
-
-            updateCounter(el) {
-                const counter = document.getElementById('char-counter');
-                if(counter) {
-                    const len = el.value.length;
-                    counter.innerText = `${len}/160`;
-                    counter.classList.toggle('text-red-600', len >= 160);
-                    counter.classList.toggle('bg-red-100', len >= 160);
-                }
-            },
-
-            scrollTo(id) {
-                const el = document.getElementById(id);
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
-            },
-
+            resetFilters() { this.state.searchTerm = ''; this.state.selectedNeighborhood = ''; this.state.selectedCategory = 'todos'; document.getElementById('search-term').value = ''; document.getElementById('search-neighborhood').value = ''; this.setCategory('todos'); this.setView('home'); this.renderAds(); },
+            scrollTo(id) { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth' }); },
             handleAnnounce(e) {
                 e.preventDefault();
-                const name = document.getElementById('form-name').value;
-                const phone = document.getElementById('form-phone').value;
-                const nb = document.getElementById('form-neighborhood').value;
-                const cat = document.getElementById('form-category').value;
-                const desc = document.getElementById('form-description').value;
-
-                const msg = `Olá, quero anunciar no ClassiBH!%0A%0A*Profissional:* ${name}%0A*Bairro:* ${nb}%0A*Categoria:* ${cat}%0A*Descrição:* ${desc}%0A%0AEstou ciente da taxa de R$ 50/mês.`;
-                window.open(`https://wa.me/5531999999999?text=${msg}`, '_blank');
+                const n = document.getElementById('form-name').value;
+                const b = document.getElementById('form-neighborhood').value;
+                const d = document.getElementById('form-description').value;
+                const msg = `Olá, quero anunciar no ClassiBH!%0A%0A*Profissional:* ${n}%0A*Bairro:* ${b}%0A*Descrição:* ${d}%0A%0AEstou ciente da taxa de R$ 100/mês.`;
+                window.open(`https://wa.me/5538999594185?text=${msg}`, '_blank');
             }
         };
-
         window.onload = () => app.init();
     </script>
 </body>
