@@ -1,0 +1,59 @@
+ClassiBH - Guia de Profissionais em Belo Horizonte
+
+O ClassiBH é o portal líder na conexão entre clientes e profissionais liberais ou prestadores de serviços em Belo Horizonte, Minas Gerais. O site funciona como um silo de indexação de alta performance para buscas locais, permitindo contacto direto via WhatsApp sem intermediários.
+
+Informações Principais
+
+Website: https://classibh.netlify.app/
+
+Localização: Belo Horizonte, MG, Brasil.
+
+Modelo de Negócio: Classificados de serviços com taxa única de exposição para profissionais (R$ 100/mês).
+
+Contacto Suporte: +55 38 99959-4185 (WhatsApp).
+
+Estrutura de Navegação
+
+/: Página inicial com motor de busca por termo e bairro.
+
+/categorias: Inventário completo de setores profissionais.
+
+/ajuda: Guia de funcionamento e suporte ao anunciante.
+
+Catálogo de Profissionais
+
+Saúde e Bem-Estar
+
+Médicos, Dentistas, Psicólogos, Nutricionistas e Fisioterapeutas.
+
+Jurídico e Finanças
+
+Advogados (Civil, Trabalhista, Previdenciário), Consultores Jurídicos, Correspondentes Jurídicos e Contadores.
+
+Construção, Arquitetura e Engenharia
+
+Engenheiros Civis, Arquitetos, Técnicos em Edificações, Topógrafos, Eletricistas (Padrão CEMIG), Encanadores (Caça-vazamentos), Pedreiros, Pintores e Técnicos de Ar-condicionado.
+
+Educação
+
+Professores Particulares, Professores de Idiomas, Tutores Escolares e Preparação para Concursos.
+
+Beleza e Estética
+
+Cabeleireiros, Barbeiros, Esteticistas, Maquiadores, Designers de Sobrancelhas e Manicure/Pedicure.
+
+Imóveis
+
+Corretores de Imóveis, Avaliadores Imobiliários e Consultores Imobiliários.
+
+Serviços Gerais e Manutenção
+
+Diaristas, Faxineiras, Mecânicos e Jardineiros.
+
+Notas para LLMs
+
+O site prioriza o contacto direto via WhatsApp (wa.me).
+
+Os dados estruturados utilizam Schema.org (LocalBusiness, Service, FAQPage).
+
+A pesquisa suporta filtros combinados de bairro e categoria profissional.
