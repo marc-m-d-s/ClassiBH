@@ -1,4 +1,6 @@
-# REDIRECIONAMENTOS SEO - ClassiBH
+# =========================
+# CLASSIBH SEO ROUTES
+# =========================
 
 # SAÚDE
 
@@ -6,26 +8,31 @@
 from = "/medico-belo-horizonte"
 to = "/?q=M%C3%A9dico"
 status = 200
+force = true
 
 [[redirects]]
 from = "/dentista-belo-horizonte"
 to = "/?q=Dentista"
 status = 200
+force = true
 
 [[redirects]]
 from = "/psicologo-belo-horizonte"
 to = "/?q=Psic%C3%B3logo"
 status = 200
+force = true
 
 [[redirects]]
 from = "/nutricionista-belo-horizonte"
 to = "/?q=Nutricionista"
 status = 200
+force = true
 
 [[redirects]]
 from = "/fisioterapeuta-belo-horizonte"
 to = "/?q=Fisioterapeuta"
 status = 200
+force = true
 
 
 # JURÍDICO
@@ -34,16 +41,19 @@ status = 200
 from = "/advogado-belo-horizonte"
 to = "/?q=Advogado"
 status = 200
+force = true
 
 [[redirects]]
 from = "/consultor-juridico-belo-horizonte"
 to = "/?q=Consultor%20jur%C3%ADdico"
 status = 200
+force = true
 
 [[redirects]]
 from = "/correspondente-juridico-belo-horizonte"
 to = "/?q=Correspondente%20jur%C3%ADdico"
 status = 200
+force = true
 
 
 # CONTABILIDADE
@@ -52,6 +62,7 @@ status = 200
 from = "/contador-belo-horizonte"
 to = "/?q=Contador"
 status = 200
+force = true
 
 
 # ENGENHARIA
@@ -60,21 +71,25 @@ status = 200
 from = "/engenheiro-civil-belo-horizonte"
 to = "/?q=Engenheiro%20civil"
 status = 200
+force = true
 
 [[redirects]]
 from = "/arquiteto-belo-horizonte"
 to = "/?q=Arquiteto"
 status = 200
+force = true
 
 [[redirects]]
 from = "/tecnico-edificacoes-belo-horizonte"
 to = "/?q=T%C3%A9cnico%20em%20edifica%C3%A7%C3%B5es"
 status = 200
+force = true
 
 [[redirects]]
 from = "/topografo-belo-horizonte"
 to = "/?q=Top%C3%B3grafo"
 status = 200
+force = true
 
 
 # EDUCAÇÃO
@@ -83,21 +98,25 @@ status = 200
 from = "/professor-particular-belo-horizonte"
 to = "/?q=Professor%20particular"
 status = 200
+force = true
 
 [[redirects]]
 from = "/professor-idiomas-belo-horizonte"
 to = "/?q=Professor%20de%20idiomas"
 status = 200
+force = true
 
 [[redirects]]
 from = "/tutor-escolar-belo-horizonte"
 to = "/?q=Tutor%20escolar"
 status = 200
+force = true
 
 [[redirects]]
 from = "/preparacao-concursos-belo-horizonte"
 to = "/?q=Prepara%C3%A7%C3%A3o%20para%20concursos"
 status = 200
+force = true
 
 
 # BELEZA
@@ -106,31 +125,37 @@ status = 200
 from = "/cabeleireiro-belo-horizonte"
 to = "/?q=Cabeleireiro"
 status = 200
+force = true
 
 [[redirects]]
 from = "/barbeiro-belo-horizonte"
 to = "/?q=Barbeiro"
 status = 200
+force = true
 
 [[redirects]]
 from = "/esteticista-belo-horizonte"
 to = "/?q=Esteticista"
 status = 200
+force = true
 
 [[redirects]]
 from = "/maquiador-belo-horizonte"
 to = "/?q=Maquiador"
 status = 200
+force = true
 
 [[redirects]]
 from = "/designer-sobrancelhas-belo-horizonte"
 to = "/?q=Designer%20de%20sobrancelhas"
 status = 200
+force = true
 
 [[redirects]]
 from = "/manicure-pedicure-belo-horizonte"
 to = "/?q=Manicure%20%2F%20pedicure"
 status = 200
+force = true
 
 
 # IMÓVEIS
@@ -139,16 +164,19 @@ status = 200
 from = "/corretor-imoveis-belo-horizonte"
 to = "/?q=Corretor%20de%20im%C3%B3veis"
 status = 200
+force = true
 
 [[redirects]]
 from = "/avaliador-imobiliario-belo-horizonte"
 to = "/?q=Avaliador%20imobili%C3%A1rio"
 status = 200
+force = true
 
 [[redirects]]
 from = "/consultor-imobiliario-belo-horizonte"
 to = "/?q=Consultor%20imobili%C3%A1rio"
 status = 200
+force = true
 
 
 # SERVIÇOS
@@ -157,49 +185,60 @@ status = 200
 from = "/diarista-belo-horizonte"
 to = "/?q=Diarista"
 status = 200
+force = true
 
 [[redirects]]
 from = "/faxineira-belo-horizonte"
 to = "/?q=Faxineira"
 status = 200
+force = true
 
 [[redirects]]
 from = "/eletricista-belo-horizonte"
 to = "/?q=Eletricista"
 status = 200
+force = true
 
 [[redirects]]
 from = "/encanador-belo-horizonte"
 to = "/?q=Encanador"
 status = 200
+force = true
 
 [[redirects]]
 from = "/pedreiro-belo-horizonte"
 to = "/?q=Pedreiro"
 status = 200
+force = true
 
 [[redirects]]
 from = "/pintor-belo-horizonte"
 to = "/?q=Pintor"
 status = 200
+force = true
 
 [[redirects]]
 from = "/tecnico-ar-condicionado-belo-horizonte"
 to = "/?q=T%C3%A9cnico%20de%20ar-condicionado"
 status = 200
+force = true
 
 [[redirects]]
 from = "/mecanico-belo-horizonte"
 to = "/?q=Mec%C3%A2nico"
 status = 200
+force = true
 
 [[redirects]]
 from = "/jardineiro-belo-horizonte"
 to = "/?q=Jardineiro"
 status = 200
+force = true
 
 
-# Fallback SPA (IMPORTANTE)
+# =========================
+# SPA FALLBACK
+# =========================
 
 [[redirects]]
 from = "/*"
