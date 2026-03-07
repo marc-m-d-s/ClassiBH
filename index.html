@@ -369,7 +369,15 @@
 
                 const params = new URLSearchParams(window.location.search);
                 const query = params.get('q');
-                if (query) {
+                
+                const path = window.location.pathname.replace("/", "");
+
+                if (!query && path.includes("-belo-horizonte")) {
+                    const categoria = path
+                        .replace("-belo-horizonte", "")
+                        .replaceAll("-", " ");
+                    this.setCategory(categoria);
+                } else if (query) {
                     this.setCategory(query);
                 }
             },
@@ -467,6 +475,15 @@
             },
 
             setCategory(cat) {
+                // SEO dinâmico
+                const catCapitalizada = cat.charAt(0).toUpperCase() + cat.slice(1);
+                document.title = catCapitalizada + " em Belo Horizonte MG | ClassiBH";
+                
+                const metaDesc = document.querySelector("meta[name='description']");
+                if (metaDesc) {
+                    metaDesc.content = catCapitalizada + " em Belo Horizonte MG. Encontre profissionais e serviços com contato direto via WhatsApp.";
+                }
+
                 // 1. Atualiza o estado ANTES de qualquer coisa
                 this.state.searchTerm = cat;
                 
@@ -479,6 +496,12 @@
                     const novaUrl = new URL(window.location);
                     novaUrl.searchParams.set('q', cat);
                     window.history.pushState({}, '', novaUrl);
+                    
+                    // Atualiza o canonical automaticamente após a mudança de URL
+                    const canonical = document.querySelector("link[rel='canonical']");
+                    if (canonical) {
+                        canonical.href = window.location.href;
+                    }
                 } catch (e) {}
                 
                 // 4. Garante que estamos na Home para ver os resultados
