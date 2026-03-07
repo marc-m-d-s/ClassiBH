@@ -1,0 +1,2 @@
+/* /index.html   200
+Isso instrui o servidor a redirecionar qualquer URL amigável para o seu site, onde o nosso script recém-adicionado lerá a URL e abrirá a categoria correta!
