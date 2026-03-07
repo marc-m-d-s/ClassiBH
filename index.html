@@ -14,7 +14,7 @@
     
     <title>ClassiBH | Profissionais e Serviços em Belo Horizonte Minas Gerais - 24h</title>
     <meta name="description" content="Encontre médicos, advogados, eletricistas e diaristas verificados em Belo Horizonte Minas Gerais. Contato direto via WhatsApp. O maior guia de serviços de Belo Horizonte.">
-    <meta name="keywords" content="médico belo horizonte, advogado belo horizonte, contador belo horizonte, engenheiro civil belo horizonte, diarista belo horizonte, eletricista belo horizonte, serviços belo horizonte, contratar profissional belo horizonte, classificados belo horizonte minas gerais, ClassiBH, serviços capital de minas">
+    <meta name="keywords" content="médico belo horizonte, advogado belo horizonte, contador belo horizonte, engenheiro civil belo horizonte, diarista belo horizonte, eletricista belo horizonte, serviços belo horizonte, contratar profissional belo horizonte, classificados belo horizonte minas gerais, ClassiBH, serviços norte de minas">
     <meta name="author" content="ClassiBH">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
@@ -38,8 +38,8 @@
     <!-- SEO LOCAL -->
     <meta name="geo.region" content="BR-MG">
     <meta name="geo.placename" content="Belo Horizonte Minas Gerais">
-    <meta name="geo.position" content="-19.9167;-43.9345">
-    <meta name="ICBM" content="-19.9167, -43.9345">
+    <meta name="geo.position" content="-19.9167;-43.9333">
+    <meta name="ICBM" content="-19.9167, -43.9333">
 
     <script src="https://cdn.tailwindcss.com" fetchpriority="high"></script>
     <script>
@@ -186,7 +186,7 @@
                     <span class="p-1.5 bg-blue-100 rounded text-blue-600" aria-hidden="true"><i data-lucide="map" class="w-4 h-4"></i></span>
                     Bairros Atendidos em Belo Horizonte
                 </h4>
-                <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 h-96 overflow-y-auto custom-scrollbar p-2 bg-slate-100/50 rounded-2xl" id="neighborhood-silo" role="list"></div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2" id="neighborhood-silo" role="list"></div>
             </section>
         </main>
 
@@ -206,11 +206,25 @@
                 <div class="p-6 md:p-12">
                     <form onsubmit="app.handleAnnounce(event)" class="space-y-6 max-w-4xl mx-auto">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <input required type="text" id="form-name" placeholder="Nome Profissional ou Empresa" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
-                            <select id="form-category" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner"></select>
+                            <input required type="text" id="form-name" aria-label="Nome Profissional ou Empresa" placeholder="Nome Profissional ou Empresa" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
+                            <select id="form-category" aria-label="Categoria do Serviço" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner"></select>
                         </div>
-                        <input required type="text" id="form-neighborhood" placeholder="Seu Bairro em Belo Horizonte" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
-                        <textarea required id="form-description" rows="4" placeholder="Descreva seus serviços..." class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner resize-none"></textarea>
+                        <input required type="text" id="form-neighborhood" aria-label="Bairro em Belo Horizonte" placeholder="Seu Bairro em Belo Horizonte" class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                    <i data-lucide="instagram" class="w-5 h-5 text-pink-500" aria-hidden="true"></i>
+                                </div>
+                                <input type="text" id="form-instagram" aria-label="Link do Instagram" placeholder="Instagram (Opcional)" class="w-full pl-12 pr-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
+                            </div>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                    <i data-lucide="facebook" class="w-5 h-5 text-blue-600" aria-hidden="true"></i>
+                                </div>
+                                <input type="text" id="form-facebook" aria-label="Link do Facebook" placeholder="Facebook (Opcional)" class="w-full pl-12 pr-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner">
+                            </div>
+                        </div>
+                        <textarea required id="form-description" aria-label="Descrição dos serviços" rows="4" placeholder="Descreva seus serviços..." class="w-full px-6 py-4 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-800 shadow-inner resize-none"></textarea>
                         <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-black py-5 rounded-2xl shadow-2xl border-b-8 border-orange-800 active:border-b-0 text-lg uppercase tracking-widest italic">
                             PUBLICAR NO ZAP <i data-lucide="message-circle" class="w-6 h-6 inline-block ml-2" aria-hidden="true"></i>
                         </button>
@@ -274,7 +288,7 @@
                 </div>
                 <div class="bg-white/5 p-6 rounded-2xl border border-white/10 h-fit col-span-1 sm:col-span-2 lg:col-span-1 text-center sm:text-left">
                     <span class="block text-[8px] font-black uppercase text-slate-500 mb-2 italic">Suporte WhatsApp</span>
-                    <span class="text-white font-black text-base tracking-tighter italic">(31) 90000-0000</span>
+                    <span class="text-white font-black text-base tracking-tighter italic">(38) 99959-4185</span>
                 </div>
             </div>
             <div class="pt-10 border-t border-white/5 text-[8px] font-black uppercase tracking-[1em] opacity-30 text-center">
@@ -289,6 +303,7 @@
                 view: 'home', 
                 searchTerm: '', 
                 selectedNeighborhood: '',
+                searchTimeout: null, // Novo estado para controlar o debounce da busca
                 groups: [
                     { name: 'Saúde', color: 'bg-soft-blue', text: 'text-blue-600', categories: ['Médico', 'Dentista', 'Psicólogo', 'Nutricionista', 'Fisioterapeuta'], icon: 'stethoscope' },
                     { name: 'Jurídico', color: 'bg-slate-100', text: 'text-slate-700', categories: ['Advogado', 'Consultor jurídico', 'Correspondente jurídico'], icon: 'scale' },
@@ -299,15 +314,13 @@
                     { name: 'Imóveis', color: 'bg-indigo-50', text: 'text-indigo-600', categories: ['Corretor de imóveis', 'Avaliador imobiliário', 'Consultor imobiliário'], icon: 'home' },
                     { name: 'Reparos', color: 'bg-yellow-50', text: 'text-yellow-700', categories: ['Diarista', 'Faxineira', 'Eletricista', 'Encanador', 'Pedreiro', 'Pintor', 'Técnico de ar-condicionado', 'Mecânico', 'Jardineiro'], icon: 'wrench' }
                 ],
-                neighborhoods: [
-                    "Abadia", "Acaba Mundo", "Acaiaca", "Ademar Maldonado", "Aeroporto", "Águas Claras", "Alípio de Melo", "Alto Barroca", "Alto dos Pinheiros", "Alto Vera Cruz", "Alvorada", "Anchieta", "Aparecida", "Araguaia", "Bairro das Indústrias", "Bandeirantes", "Barreiro", "Barro Preto", "Barroca", "Beija-Flor", "Belmonte", "Belvedere", "Betânia", "Boa Viagem", "Boa Vista", "Bom Jesus", "Bonfim", "Bonsucesso", "Brasil Industrial", "Braúnas", "Buritis", "Cabana do Pai Tomás", "Cachoeirinha", "Caetano Furquim", "Caiçara", "Calafate", "Califórnia", "Camargos", "Campo Alegre", "Canaã", "Cardoso", "Carlos Prates", "Carmo", "Casa Branca", "Castanheira", "Castelo", "Céu Azul", "Cidade Jardim", "Cidade Nova", "Cinquentenário", "Colégio Batista", "Comiteco", "Concórdia", "Conjunto Califórnia", "Conjunto Estrela Dalva", "Conjunto Felicidade", "Conjunto Paulo VI", "Conjunto Santa Maria", "Copacabana", "Coqueiros", "Coração de Jesus", "Coração Eucarístico", "Cruzeiro", "Da Graça", "Diamante", "Dom Bosco", "Dom Cabral", "Dom Joaquim", "Dom Silvério", "Dona Clara", "Engenho Nogueira", "Ermelinda", "Esplanada", "Estoril", "Estrela do Oriente", "Etelvina Carneiro", "Europa", "Felicidade", "Fernão Dias", "Floramar", "Floresta", "Frei Leopoldo", "Funcionários", "Gameleira", "Garças", "Glória", "Goiânia", "Grajaú", "Granja de Freitas", "Guarani", "Gutierrez", "Havaí", "Heliópolis", "Horto", "Humaitá", "Inconfidência", "Independência", "Indaiá", "Itapoã", "Itatiaia", "Jaqueline", "Jaraguá", "Jardim Alvorada", "Jardim América", "Jardim Atlântico", "Jardim Felicidade", "Jardim Guanabara", "Jardim Leblon", "Jardim Montanhês", "Jardim Paquetá", "Jardim Vitória", "Jatobá", "João Pinheiro", "Juliana", "Justinópolis", "Lagoinha", "Letícia", "Liberdade", "Lindéia", "Lourdes", "Luxemburgo", "Madre Gertrudes", "Manacás", "Mangabeiras", "Mantiqueira", "Maria Helena", "Maria Virgínia", "Marajó", "Milionários", "Minas Brasil", "Minas Caixa", "Miramar", "Monsenhor Messias", "Monte Azul", "Nova Barroca", "Nova Cintra", "Nova Esperança", "Nova Floresta", "Nova Gameleira", "Nova Granada", "Nova Pampulha", "Nova Suíça", "Nova Vista", "Novo Aarão Reis", "Novo Glória", "Novo Santa Cecília", "Olaria", "Olhos d'Água", "Ouro Minas", "Ouro Preto", "Padre Eustáquio", "Palmares", "Palmeiras", "Paquetá", "Paraíso", "Paulo VI", "Pedro II", "Petrópolis", "Pilar", "Pindorama", "Pirajá", "Piratininga", "Planalto", "Pompéia", "Ponte Preta", "Primeiro de Maio", "Providência", "Prudente de Morais", "Renascença", "Ribeiro de Abreu", "Rio Branco", "Sagrada Família", "Salgado Filho", "Santa Amélia", "Santa Branca", "Santa Cecília", "Santa Cruz", "Santa Efigênia", "Santa Helena", "Santa Inês", "Santa Lúcia", "Santa Margarida", "Santa Maria", "Santa Mônica", "Santa Rosa", "Santa Tereza", "Santa Terezinha", "Santo Agostinho", "Santo Antônio", "São Bento", "São Bernardo", "São Cristóvão", "São Francisco", "São Gabriel", "São Geraldo", "São João Batista", "São Jorge", "São José", "São Lucas", "São Luiz", "São Marcos", "São Paulo", "São Pedro", "São Salvador", "São Tomaz", "São Vicente", "Saudade", "Savassi", "Serra", "Serra Verde", "Serrano", "Silveira", "Sion", "Solimões", "Suzana", "Taquaril", "Teixeira Dias", "Teresópolis", "Tirol", "Trevo", "União", "Universitário", "Urca", "Vale do Jatobá", "Venda Nova", "Vera Cruz", "Vila Clóris", "Vila Pinho", "Vila Piratininga", "Vista Alegre", "Vista do Sol", "Vitória", "Xangri-lá"
-                ].sort(),
+                neighborhoods: ["Anchieta","Alto Barroca","Barreiro","Belvedere","Buritis","Cachoeirinha","Caicara","Calafate","Camargos","Castelo","Centro","Cidade Jardim","Cidade Nova","Carlos Prates","Concordia","Cruzeiro","Dom Cabral","Estoril","Floresta","Funcionarios","Gutierrez","Horto","Ipiranga","Itapoa","Jaragua","Lagoinha","Lourdes","Luxemburgo","Mangabeiras","Minaslandia","Nazare","Nova Suica","Ouro Preto","Padre Eustaquio","Palmares","Pampulha","Planalto","Prado","Renascenca","Santa Amelia","Santa Cruz","Santa Efigenia","Santa Ines","Santa Lucia","Santa Monica","Santa Tereza","Santo Agostinho","Santo Antonio","Serra","Sion","Uniao","Venda Nova"].sort(),
                 ads: [
-                    { id: 1, category: 'Médico', name: 'Dr. Roberto Coração', phone: '31988887777', neighborhood: 'Savassi', desc: 'Cardiologista especializado em check-ups completos em Belo Horizonte.' },
-                    { id: 2, category: 'Advogado', name: 'Silva & Associados', phone: '31977776666', neighborhood: 'Lourdes', desc: 'Direito da Família e Civil em Belo Horizonte.' },
-                    { id: 3, category: 'Eletricista', name: 'BH Elétrica Master', phone: '31966665555', neighborhood: 'Castelo', desc: 'Manutenção elétrica e padrão CEMIG 24h.' },
-                    { id: 4, category: 'Engenheiro civil', name: 'Eng. Marcos Reformas', phone: '31944443333', neighborhood: 'Buritis', desc: 'Projetos estruturais e acompanhamento de obras.' },
-                    { id: 5, category: 'Diarista', name: 'Limpeza Premium BH', phone: '31933332222', neighborhood: 'Belvedere', desc: 'Serviço de limpeza residencial de alto padrão.' }
+                    { id: 1, category: 'Médico', name: 'Dr. Roberto Coração', phone: '38988887777', neighborhood: 'Centro', desc: 'Cardiologista especializado em check-ups completos em Belo Horizonte.', instagram: 'https://instagram.com', facebook: 'https://facebook.com' },
+                    { id: 2, category: 'Advogado', name: 'Silva & Associados', phone: '38977776666', neighborhood: 'Centro', desc: 'Direito da Família e Civil em Belo Horizonte.', instagram: 'https://instagram.com' },
+                    { id: 3, category: 'Eletricista', name: 'João Elétrica Master', phone: '38966665555', neighborhood: 'Camargos', desc: 'Manutenção elétrica e padrão CEMIG 24h.' },
+                    { id: 4, category: 'Engenheiro civil', name: 'Eng. Marcos Reformas', phone: '38944443333', neighborhood: 'Cidade Jardim', desc: 'Projetos estruturais e acompanhamento de obras.', facebook: 'https://facebook.com' },
+                    { id: 5, category: 'Diarista', name: 'Ana Limpeza Premium', phone: '38933332222', neighborhood: 'Cidade Nova', desc: 'Serviço de limpeza residencial de alto padrão.' }
                 ]
             },
 
@@ -396,34 +409,47 @@
             },
 
             handleSearch() {
-                const sT = document.getElementById('search-term');
-                const sN = document.getElementById('search-neighborhood');
+                // Cancela a busca anterior se o usuário continuar digitando
+                clearTimeout(this.state.searchTimeout);
                 
-                if (sT) this.state.searchTerm = sT.value.trim();
-                if (sN) this.state.selectedNeighborhood = sN.value.trim();
-                
-                this.renderAds();
-                
-                const btn = document.getElementById('btn-clear');
-                if(btn) {
-                    if(this.state.searchTerm || this.state.selectedNeighborhood) btn.classList.remove('hidden');
-                    else btn.classList.add('hidden');
-                }
+                // Aguarda 300ms após a última tecla antes de executar a busca (Debounce)
+                this.state.searchTimeout = setTimeout(() => {
+                    const sT = document.getElementById('search-term');
+                    const sN = document.getElementById('search-neighborhood');
+                    
+                    // Lê dos campos visíveis
+                    if (sT) this.state.searchTerm = sT.value.trim();
+                    if (sN) this.state.selectedNeighborhood = sN.value.trim();
+                    
+                    this.renderAds();
+                    
+                    const btn = document.getElementById('btn-clear');
+                    if(btn) {
+                        if(this.state.searchTerm || this.state.selectedNeighborhood) btn.classList.remove('hidden');
+                        else btn.classList.add('hidden');
+                    }
+                }, 300);
             },
 
             setCategory(cat) {
+                // 1. Atualiza o estado ANTES de qualquer coisa
                 this.state.searchTerm = cat;
+                
+                // 2. Sincroniza o campo de busca visual se ele existir
                 const sT = document.getElementById('search-term');
                 if(sT) sT.value = cat;
                 
+                // 3. SEO: Atualiza a URL mantendo acentos para casar com o Sitemap
                 try {
                     const novaUrl = new URL(window.location);
                     novaUrl.searchParams.set('q', cat);
                     window.history.pushState({}, '', novaUrl);
                 } catch (e) {}
                 
+                // 4. Garante que estamos na Home para ver os resultados
                 if (this.state.view !== 'home') this.setView('home');
                 
+                // 5. Executa a filtragem e scroll
                 this.handleSearch();
                 this.scrollTo('feed');
             },
@@ -490,27 +516,32 @@
                 if(filtered.length === 0) {
                     grid.innerHTML = `<div class="col-span-full py-16 text-center bg-white rounded-[2rem] border-2 border-dashed border-slate-100"><i data-lucide="search-x" class="w-12 h-12 text-slate-200 mx-auto mb-4" aria-hidden="true"></i><h4 class="font-black text-slate-400 uppercase tracking-widest italic">Nenhum profissional encontrado</h4></div>`;
                 } else {
-                    grid.innerHTML = filtered.map(ad => `
-                        <article role="listitem" class="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200 flex flex-col relative overflow-hidden">
-                            <div class="absolute top-0 right-0 bg-blue-900 text-white px-5 py-1.5 rounded-bl-[1.5rem] text-[8px] font-black uppercase tracking-widest">${ad.category}</div>
-                            <div class="mb-5">
-                                <h3 class="font-black text-xl text-slate-900 uppercase leading-none tracking-tighter italic truncate pr-16">${ad.name}</h3>
-                                <div class="flex items-center text-orange-600 font-black text-[9px] mt-3 uppercase tracking-widest bg-orange-50 w-fit px-3 py-1 rounded-full border border-orange-100">
-                                    <i data-lucide="map-pin" class="mr-1 w-3 h-3"></i> ${ad.neighborhood}
+                    grid.innerHTML = filtered.map(ad => {
+                        const instaHtml = ad.instagram ? `<a href="${ad.instagram}" target="_blank" aria-label="Instagram de ${ad.name}" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-pink-600 hover:bg-pink-50 transition-colors"><i data-lucide="instagram" class="w-4 h-4"></i></a>` : '';
+                        const faceHtml = ad.facebook ? `<a href="${ad.facebook}" target="_blank" aria-label="Facebook de ${ad.name}" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-blue-600 hover:bg-blue-50 transition-colors"><i data-lucide="facebook" class="w-4 h-4"></i></a>` : '';
+                        
+                        return `
+                            <article role="listitem" class="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200 flex flex-col relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-blue-900 text-white px-5 py-1.5 rounded-bl-[1.5rem] text-[8px] font-black uppercase tracking-widest">${ad.category}</div>
+                                <div class="mb-5">
+                                    <h3 class="font-black text-xl text-slate-900 uppercase leading-none tracking-tighter italic truncate pr-16">${ad.name}</h3>
+                                    <div class="flex items-center text-orange-600 font-black text-[9px] mt-3 uppercase tracking-widest bg-orange-50 w-fit px-3 py-1 rounded-full border border-orange-100">
+                                        <i data-lucide="map-pin" class="mr-1 w-3 h-3"></i> ${ad.neighborhood}
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="text-slate-500 text-[13px] mb-8 line-clamp-2 font-medium italic border-l-4 border-blue-100 pl-4 leading-relaxed">"${ad.desc}"</p>
-                            <div class="flex gap-2 mt-auto">
-                                <a href="https://wa.me/55${ad.phone}?text=Ol%C3%A1%2C%20vim%20pelo%20site%20ClassiBH.%20Preciso%20de%3A%20" 
-                                   target="_blank" rel="nofollow" 
-                                   class="flex-[4] bg-green-500 hover:bg-green-600 text-white font-black py-3 rounded-xl flex items-center justify-center gap-2 shadow-lg border-b-4 border-green-800 text-[10px] uppercase">
-                                    <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
-                                </a>
-                                <a href="#" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-pink-600 hover:bg-pink-50 transition-colors"><i data-lucide="instagram" class="w-4 h-4"></i></a>
-                                <a href="#" class="flex-1 flex items-center justify-center border-2 border-slate-100 rounded-xl text-blue-600 hover:bg-blue-50 transition-colors"><i data-lucide="facebook" class="w-4 h-4"></i></a>
-                            </div>
-                        </article>
-                    `).join('');
+                                <p class="text-slate-500 text-[13px] mb-8 line-clamp-2 font-medium italic border-l-4 border-blue-100 pl-4 leading-relaxed">"${ad.desc}"</p>
+                                <div class="flex gap-2 mt-auto">
+                                    <a href="https://wa.me/55${ad.phone}?text=Ol%C3%A1%2C%20vim%20pelo%20site%20ClassiBH.%20Preciso%20de%3A%20" 
+                                       target="_blank" rel="nofollow" 
+                                       class="flex-[4] bg-green-500 hover:bg-green-600 text-white font-black py-3 rounded-xl flex items-center justify-center gap-2 shadow-lg border-b-4 border-green-800 text-[10px] uppercase">
+                                        <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+                                    </a>
+                                    ${instaHtml}
+                                    ${faceHtml}
+                                </div>
+                            </article>
+                        `;
+                    }).join('');
                 }
                 const count = document.getElementById('results-count');
                 if(count) count.innerText = `${filtered.length} Profissionais Disponíveis`;
@@ -522,9 +553,11 @@
                 const n = document.getElementById('form-name').value;
                 const c = document.getElementById('form-category').value;
                 const b = document.getElementById('form-neighborhood').value;
+                const insta = document.getElementById('form-instagram').value || 'Não informado';
+                const face = document.getElementById('form-facebook').value || 'Não informado';
                 const d = document.getElementById('form-description').value;
-                const msg = `Olá ClassiBH!%0A%0A*NOVO ANÚNCIO*%0A*Nome:* ${n}%0A*Categoria:* ${c}%0A*Bairro:* ${b}%0A*Descrição:* ${d}`;
-                window.open(`https://wa.me/5531900000000?text=${msg}`, '_blank');
+                const msg = `Olá ClassiBH!%0A%0A*NOVO ANÚNCIO*%0A*Nome:* ${n}%0A*Categoria:* ${c}%0A*Bairro:* ${b}%0A*Instagram:* ${insta}%0A*Facebook:* ${face}%0A*Descrição:* ${d}`;
+                window.open(`https://wa.me/5538999594185?text=${msg}`, '_blank');
             }
         };
 
