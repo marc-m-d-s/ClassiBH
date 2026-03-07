@@ -1,5 +1,5 @@
 # =========================
-# CLASSIBH SEO ROUTES
+# CLASSIJANU - SEO ROUTES
 # =========================
 
 # SAÚDE
@@ -17,7 +17,7 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/psicologo-belo-horizonte"
+from = "/psicologo-jbelo-horizonte"
 to = "/?q=Psic%C3%B3logo"
 status = 200
 force = true
@@ -237,7 +237,7 @@ force = true
 
 
 # =========================
-# SPA FALLBACK
+# FALLBACK SPA
 # =========================
 
 [[redirects]]
