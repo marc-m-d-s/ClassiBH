@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+Disallow: /?s=
+Disallow: /?search=
+
 Sitemap: https://classibh.netlify.app/sitemap.xml
