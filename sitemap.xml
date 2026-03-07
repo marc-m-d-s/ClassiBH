@@ -1,63 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-              http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    
-    <!-- PÁGINA PRINCIPAL -->
-    <url>
-        <loc>https://classibh.netlify.app/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- SAÚDE E BEM-ESTAR -->
-    <url><loc>https://classibh.netlify.app/?q=M%C3%A9dico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Dentista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Psic%C3%B3logo</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Nutricionista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Fisioterapeuta</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<!-- HOME -->
 
-    <!-- JURÍDICO E FINANÇAS -->
-    <url><loc>https://classibh.netlify.app/?q=Advogado</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Consultor%20jur%C3%ADdico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Correspondente%20jur%C3%ADdico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Contador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>
+<loc>https://classibh.netlify.app/</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
 
-    <!-- CONSTRUÇÃO E ENGENHARIA -->
-    <url><loc>https://classibh.netlify.app/?q=Engenheiro%20civil</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Arquiteto</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=T%C3%A9cnico%20em%20edifica%C3%A7%C3%B5es</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Top%C3%B3grafo</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<!-- SAÚDE -->
 
-    <!-- EDUCAÇÃO -->
-    <url><loc>https://classibh.netlify.app/?q=Professor%20particular</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Professor%20de%20idiomas</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Tutor%20escolar</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Prepara%C3%A7%C3%A3o%20para%20concursos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>
+<loc>https://classibh.netlify.app/medico-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 
-    <!-- BELEZA E ESTÉTICA -->
-    <url><loc>https://classibh.netlify.app/?q=Cabeleireiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Barbeiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Esteticista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Maquiador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Designer%20de%20sobrancelhas</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Manicure%20%2F%20pedicure</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>
+<loc>https://classibh.netlify.app/dentista-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 
-    <!-- IMÓVEIS -->
-    <url><loc>https://classibh.netlify.app/?q=Corretor%20de%20im%C3%B3veis</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Avaliador%20imobili%C3%A1rio</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Consultor%20imobili%C3%A1rio</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>
+<loc>https://classibh.netlify.app/psicologo-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 
-    <!-- MANUTENÇÃO E REPAROS -->
-    <url><loc>https://classibh.netlify.app/?q=Diarista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Faxineira</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Eletricista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Encanador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Pedreiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Pintor</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=T%C3%A9cnico%20de%20ar-condicionado</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Mec%C3%A2nico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://classibh.netlify.app/?q=Jardineiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>
+<loc>https://classibh.netlify.app/nutricionista-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/fisioterapeuta-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- JURÍDICO -->
+
+<url>
+<loc>https://classibh.netlify.app/advogado-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/consultor-juridico-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/correspondente-juridico-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/contador-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- ENGENHARIA -->
+
+<url>
+<loc>https://classibh.netlify.app/engenheiro-civil-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/arquiteto-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/tecnico-edificacoes-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/topografo-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- EDUCAÇÃO -->
+
+<url>
+<loc>https://classibh.netlify.app/professor-particular-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/professor-idiomas-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/tutor-escolar-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/preparacao-concursos-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- BELEZA -->
+
+<url>
+<loc>https://classibh.netlify.app/cabeleireiro-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/barbeiro-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/esteticista-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/maquiador-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/designer-sobrancelhas-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/manicure-pedicure-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- SERVIÇOS -->
+
+<url>
+<loc>https://classibh.netlify.app/diarista-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/faxineira-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/eletricista-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/encanador-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/pedreiro-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/pintor-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/tecnico-ar-condicionado-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/mecanico-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://classibh.netlify.app/jardineiro-belo-horizonte</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 
 </urlset>
