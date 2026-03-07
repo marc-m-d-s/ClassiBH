@@ -1,54 +1,50 @@
 {
-"name": "ClassiBH | Guia de Profissionais em Belo Horizonte",
-"short_name": "ClassiBH",
-"description": "Portal líder na conexão entre clientes e profissionais em Belo Horizonte, MG. Médicos, advogados e serviços gerais com contacto direto no ClassiBH.",
-"start_url": "/",
-"display": "standalone",
-"background_color": "#1e3a8a",
-"theme_color": "#1e3a8a",
-"orientation": "portrait",
-"icons": [
-{
-"src": "/icon-192.png",
-"sizes": "192x192",
-"type": "image/png",
-"purpose": "any maskable"
-},
-{
-"src": "/icon-512.png",
-"sizes": "512x512",
-"type": "image/png"
-}
-],
-"categories": [
-"business",
-"services",
-"lifestyle"
-],
-"shortcuts": [
-{
-"name": "Categorias",
-"short_name": "Categorias",
-"url": "/#categorias",
-"description": "Ver todos os setores profissionais",
-"icons": [
-{
-"src": "/icon-192.png",
-"sizes": "192x192"
-}
-]
-},
-{
-"name": "Anunciar",
-"short_name": "Anunciar",
-"url": "/#anunciar",
-"description": "Publique seu serviço no ClassiBH",
-"icons": [
-{
-"src": "/icon-192.png",
-"sizes": "192x192"
-}
-]
-}
-]
+  "name": "ClassiBH | Guia de Profissionais em Belo Horizonte",
+  "short_name": "ClassiBH",
+  "description": "Portal líder na conexão entre clientes e profissionais em Belo Horizonte, MG. Médicos, advogados e serviços gerais com contacto direto no ClassiBH.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": [
+    "business",
+    "services",
+    "lifestyle"
+  ],
+  "shortcuts": [
+    {
+      "name": "Categorias",
+      "url": "/#categorias",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Anunciar",
+      "url": "/#anunciar",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
 }
