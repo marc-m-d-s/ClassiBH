@@ -85,7 +85,7 @@
                     "streetAddress": "Belo Horizonte",
                     "addressLocality": "Belo Horizonte",
                     "addressRegion": "MG",
-                    "postalCode": "30000-000",
+                    "postalCode": "39480-000",
                     "addressCountry": "BR"
                 }
             }
@@ -292,7 +292,7 @@
                 </div>
             </div>
             <div class="pt-10 border-t border-white/5 text-[8px] font-black uppercase tracking-[1em] opacity-30 text-center">
-                © 2026 CLASSIBH - Deskchain | BELO HORIZONTE - MG
+                © 2026 CLASSIBH - Deskchain | BELLO HORIZONTE - MG
             </div>
         </div>
     </footer>
@@ -303,45 +303,7 @@
                 view: 'home', 
                 searchTerm: '', 
                 selectedNeighborhood: '',
-                searchTimeout: null,
-                // Dicionário SEO para casar Slug da URL com o Nome exato da Categoria no Banco/Filtro
-                slugMap: {
-                    'medico': 'Médico',
-                    'dentista': 'Dentista',
-                    'psicologo': 'Psicólogo',
-                    'nutricionista': 'Nutricionista',
-                    'fisioterapeuta': 'Fisioterapeuta',
-                    'advogado': 'Advogado',
-                    'consultor-juridico': 'Consultor jurídico',
-                    'correspondente-juridico': 'Correspondente jurídico',
-                    'contador': 'Contador',
-                    'engenheiro-civil': 'Engenheiro civil',
-                    'arquiteto': 'Arquiteto',
-                    'tecnico-edificacoes': 'Técnico em edificações',
-                    'topografo': 'Topógrafo',
-                    'professor-particular': 'Professor particular',
-                    'professor-idiomas': 'Professor de idiomas',
-                    'tutor-escolar': 'Tutor escolar',
-                    'preparacao-concursos': 'Preparação para concursos',
-                    'cabeleireiro': 'Cabeleireiro',
-                    'barbeiro': 'Barbeiro',
-                    'esteticista': 'Esteticista',
-                    'maquiador': 'Maquiador',
-                    'designer-sobrancelhas': 'Designer de sobrancelhas',
-                    'manicure-pedicure': 'Manicure / pedicure',
-                    'corretor-imoveis': 'Corretor de imóveis',
-                    'avaliador-imobiliario': 'Avaliador imobiliário',
-                    'consultor-imobiliario': 'Consultor imobiliário',
-                    'diarista': 'Diarista',
-                    'faxineira': 'Faxineira',
-                    'eletricista': 'Eletricista',
-                    'encanador': 'Encanador',
-                    'pedreiro': 'Pedreiro',
-                    'pintor': 'Pintor',
-                    'tecnico-ar-condicionado': 'Técnico de ar-condicionado',
-                    'mecanico': 'Mecânico',
-                    'jardineiro': 'Jardineiro'
-                },
+                searchTimeout: null, // Novo estado para controlar o debounce da busca
                 groups: [
                     { name: 'Saúde', color: 'bg-soft-blue', text: 'text-blue-600', categories: ['Médico', 'Dentista', 'Psicólogo', 'Nutricionista', 'Fisioterapeuta'], icon: 'stethoscope' },
                     { name: 'Jurídico', color: 'bg-slate-100', text: 'text-slate-700', categories: ['Advogado', 'Consultor jurídico', 'Correspondente jurídico'], icon: 'scale' },
@@ -354,8 +316,7 @@
                 ],
                 neighborhoods: ["Anchieta","Alto Barroca","Barreiro","Belvedere","Buritis","Cachoeirinha","Caicara","Calafate","Camargos","Castelo","Centro","Cidade Jardim","Cidade Nova","Carlos Prates","Concordia","Cruzeiro","Dom Cabral","Estoril","Floresta","Funcionarios","Gutierrez","Horto","Ipiranga","Itapoa","Jaragua","Lagoinha","Lourdes","Luxemburgo","Mangabeiras","Minaslandia","Nazare","Nova Suica","Ouro Preto","Padre Eustaquio","Palmares","Pampulha","Planalto","Prado","Renascenca","Santa Amelia","Santa Cruz","Santa Efigenia","Santa Ines","Santa Lucia","Santa Monica","Santa Tereza","Santo Agostinho","Santo Antonio","Serra","Sion","Uniao","Venda Nova"].sort(),
                 ads: [
-                    {
-                        id: 1,
+                    {   id: 1,
                         category: 'Médico',
                         name: 'Dr. Roberto Coração',
                         phone: '38988887777',
@@ -368,7 +329,7 @@
                         category: 'Advogado',
                         name: 'Silva & Associados',
                         phone: '38977776666',
-                        neighborhood: 'Centro',
+                        neighborhood: 'Alto Barroca',
                         desc: 'Direito da Família e Civil em Belo Horizonte.',
                         instagram: 'https://instagram.com'
                     },
@@ -376,22 +337,22 @@
                         category: 'Eletricista',
                         name: 'João Elétrica Master',
                         phone: '38966665555',
-                        neighborhood: 'Camargos',
+                        neighborhood: 'Centro',
                         desc: 'Manutenção elétrica e padrão CEMIG 24h.'
                     },
                     {   id: 4,
                         category: 'Engenheiro civil',
                         name: 'Eng. Marcos Reformas',
                         phone: '38944443333',
-                        neighborhood: 'Cidade Jardim',
+                        neighborhood: 'Barreiro',
                         desc: 'Projetos estruturais e acompanhamento de obras.',
                         facebook: 'https://facebook.com'
                     },
                     {   id: 5,
                         category: 'Diarista',
                         name: 'Ana Limpeza Premium',
-                        phone: '38933332222',
-                        neighborhood: 'Cidade Nova',
+                        phone: '38933332222', 
+                        neighborhood: 'Anchieta', 
                         desc: 'Serviço de limpeza residencial de alto padrão.'
                     }
                 ]
@@ -407,23 +368,21 @@
 
                 const params = new URLSearchParams(window.location.search);
                 const query = params.get('q');
+                const path = window.location.pathname.replace(/^\//, "").replace(/\/$/, ""); // Remove barras nas pontas
                 
-                // Remove as barras iniciais/finais da URL atual
-                const path = window.location.pathname.replace(/^\/|\/$/g, "");
-
-                // SEO FIX: Transforma o slug ex. "tecnico-edificacoes" na Categoria real "Técnico em edificações"
-                if (!query && path.endsWith("-belo-horizonte")) {
-                    const slug = path.replace("-belo-horizonte", "");
-                    const categoriaExata = this.state.slugMap[slug] || slug.replaceAll("-", " ");
-                    this.setCategory(categoriaExata, false); // false = não reescrever a url, manter a amigável
-                } else if (query) {
-                    this.setCategory(query, true); // true = foi via busca/query, podemos reescrever pra URL amigável se quiser
+                if (query) {
+                    this.setCategory(query);
+                } else if (path.includes("-belohorizonte")) {
+                    const pathCat = path.replace("-belohorizonte", "").split("-").join(" ");
+                    
+                    // Busca a categoria real no array para manter formatação (Maiúsculas/Minúsculas)
+                    let matchedCat = pathCat;
+                    this.state.groups.forEach(g => g.categories.forEach(c => {
+                        if (c.toLowerCase() === pathCat.toLowerCase()) matchedCat = c;
+                    }));
+                    
+                    this.setCategory(matchedCat);
                 }
-            },
-
-            // Helper para criar o Slug da URL baseado no nome da categoria
-            createSlug(str) {
-                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+\/\s+/g, '-').replace(/\s+/g, '-');
             },
 
             renderHomeCategories() {
@@ -496,12 +455,15 @@
             },
 
             handleSearch() {
+                // Cancela a busca anterior se o usuário continuar digitando
                 clearTimeout(this.state.searchTimeout);
                 
+                // Aguarda 300ms após a última tecla antes de executar a busca (Debounce)
                 this.state.searchTimeout = setTimeout(() => {
                     const sT = document.getElementById('search-term');
                     const sN = document.getElementById('search-neighborhood');
                     
+                    // Lê dos campos visíveis
                     if (sT) this.state.searchTerm = sT.value.trim();
                     if (sN) this.state.selectedNeighborhood = sN.value.trim();
                     
@@ -515,42 +477,36 @@
                 }, 300);
             },
 
-            setCategory(cat, pushUrl = true) {
-                // SEO dinâmico com capitalização correta (Ex: "Médico" em vez de "medico")
-                document.title = cat + " em Belo Horizonte MG | ClassiBH";
-                
-                const metaDesc = document.querySelector("meta[name='description']");
-                if (metaDesc) {
-                    metaDesc.content = cat + " em Belo Horizonte MG. Encontre profissionais e serviços com contato direto via WhatsApp.";
-                }
-
+            setCategory(cat) {
+                // 1. Atualiza o estado ANTES de qualquer coisa
                 this.state.searchTerm = cat;
                 
+                // 2. Sincroniza o campo de busca visual se ele existir
                 const sT = document.getElementById('search-term');
                 if(sT) sT.value = cat;
                 
-                // SEO FIX: Atualiza para a URL Limpa (Ex: /medico-belo-horizonte) e seta Canonical
-                if (pushUrl) {
-                    try {
-                        const slug = this.createSlug(cat);
-                        const cleanUrl = `/${slug}-belo-horizonte`;
-                        window.history.pushState({}, '', cleanUrl);
-                        
-                        const canonical = document.querySelector("link[rel='canonical']");
-                        if (canonical) {
-                            canonical.href = window.location.origin + cleanUrl;
-                        }
-                    } catch (e) {}
-                } else {
-                    // Apenas atualiza o canonical se o URL já estiver correto
-                    const canonical = document.querySelector("link[rel='canonical']");
-                    if (canonical) {
-                        canonical.href = window.location.href;
-                    }
+                // 3. SEO: Atualiza a URL e Meta Tags dinamicamente
+                try {
+                    const novaUrl = new URL(window.location);
+                    novaUrl.searchParams.set('q', cat);
+                    window.history.pushState({}, '', novaUrl);
+                } catch (e) {}
+
+                document.title = `${cat} em Belo Horizonte MG | ClassiBH`;
+                const metaDesc = document.querySelector("meta[name='description']");
+                if (metaDesc) {
+                    metaDesc.content = `${cat} em Belo Horizonte MG. Encontre profissionais e serviços com contato direto via WhatsApp. O maior guia de Belo Horizonte.`;
                 }
                 
+                const canonical = document.querySelector("link[rel='canonical']");
+                if (canonical) {
+                    canonical.href = window.location.href;
+                }
+                
+                // 4. Garante que estamos na Home para ver os resultados
                 if (this.state.view !== 'home') this.setView('home');
                 
+                // 5. Executa a filtragem e scroll
                 this.handleSearch();
                 this.scrollTo('feed');
             },
@@ -575,13 +531,23 @@
                 if(sN) sN.value = '';
                 
                 try {
-                    window.history.pushState({}, '', '/');
-                    const canonical = document.querySelector("link[rel='canonical']");
-                    if (canonical) canonical.href = window.location.origin + '/';
-                    
-                    document.title = "ClassiBH | Profissionais e Serviços em Belo Horizonte Minas Gerais - 24h";
+                    const novaUrl = new URL(window.location);
+                    novaUrl.searchParams.delete('q');
+                    window.history.pushState({}, '', novaUrl);
                 } catch (e) {}
                 
+                // Restaura o SEO original
+                document.title = "ClassiBH | Profissionais e Serviços em Belo Horizonte Minas Gerais - 24h";
+                const metaDesc = document.querySelector("meta[name='description']");
+                if (metaDesc) {
+                    metaDesc.content = "Encontre médicos, advogados, eletricistas e diaristas verificados em Belo Horizonte Minas Gerais. Contato direto via WhatsApp. O maior guia de serviços de Belo Horizonte.";
+                }
+                
+                const canonical = document.querySelector("link[rel='canonical']");
+                if (canonical) {
+                    canonical.href = window.location.href;
+                }
+
                 this.handleSearch();
                 this.setView('home');
             },
