@@ -1,78 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Mapa do Site de Elite - ClassiBH | Belo Horizonte -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-   
-   <!-- PÁGINAS PRINCIPAIS (PRIORIDADE MÁXIMA 1.0) -->
-   <url>
-      <loc>https://classibh.netlify.app/</loc>
-      <lastmod>2026-03-06</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://classibh.netlify.app/categorias</loc>
-      <lastmod>2026-03-06</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://classibh.netlify.app/ajuda</loc>
-      <lastmod>2026-03-06</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+              http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- PÁGINA PRINCIPAL -->
+    <url>
+        <loc>https://classibh.netlify.app/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-   <!-- CATEGORIAS E PROFISSÕES (PRIORIDADE DE NICHO 0.9) -->
-   
-   <!-- Saúde e Bem-Estar -->
-   <url><loc>https://classibh.netlify.app/categorias/medico</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/dentista</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/psicologo</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/nutricionista</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/fisioterapeuta</loc><priority>0.9</priority></url>
+    <!-- SAÚDE E BEM-ESTAR -->
+    <url><loc>https://classibh.netlify.app/?q=M%C3%A9dico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Dentista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Psic%C3%B3logo</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Nutricionista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Fisioterapeuta</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Jurídico -->
-   <url><loc>https://classibh.netlify.app/categorias/advogado</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/consultor-juridico</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/correspondente-juridico</loc><priority>0.9</priority></url>
+    <!-- JURÍDICO E FINANÇAS -->
+    <url><loc>https://classibh.netlify.app/?q=Advogado</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Consultor%20jur%C3%ADdico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Correspondente%20jur%C3%ADdico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Contador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Contabilidade e Finanças -->
-   <url><loc>https://classibh.netlify.app/categorias/contador</loc><priority>0.9</priority></url>
+    <!-- CONSTRUÇÃO E ENGENHARIA -->
+    <url><loc>https://classibh.netlify.app/?q=Engenheiro%20civil</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Arquiteto</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=T%C3%A9cnico%20em%20edifica%C3%A7%C3%B5es</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Top%C3%B3grafo</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Construção e Engenharia -->
-   <url><loc>https://classibh.netlify.app/categorias/engenheiro-civil</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/arquiteto</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/tecnico-edificacoes</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/topografo</loc><priority>0.9</priority></url>
+    <!-- EDUCAÇÃO -->
+    <url><loc>https://classibh.netlify.app/?q=Professor%20particular</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Professor%20de%20idiomas</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Tutor%20escolar</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Prepara%C3%A7%C3%A3o%20para%20concursos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Educação e Ensino -->
-   <url><loc>https://classibh.netlify.app/categorias/professor-particular</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/professor-idiomas</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/tutor-escolar</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/preparacao-concursos</loc><priority>0.9</priority></url>
+    <!-- BELEZA E ESTÉTICA -->
+    <url><loc>https://classibh.netlify.app/?q=Cabeleireiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Barbeiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Esteticista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Maquiador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Designer%20de%20sobrancelhas</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Manicure%20%2F%20pedicure</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Beleza e Estética -->
-   <url><loc>https://classibh.netlify.app/categorias/cabeleireiro</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/barbeiro</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/esteticista</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/maquiador</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/designer-sobrancelhas</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/manicure-pedicure</loc><priority>0.9</priority></url>
+    <!-- IMÓVEIS -->
+    <url><loc>https://classibh.netlify.app/?q=Corretor%20de%20im%C3%B3veis</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Avaliador%20imobili%C3%A1rio</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Consultor%20imobili%C3%A1rio</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
-   <!-- Imóveis -->
-   <url><loc>https://classibh.netlify.app/categorias/corretor-imoveis</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/avaliador-imobiliario</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/consultor-imobiliario</loc><priority>0.9</priority></url>
-
-   <!-- Reparos e Serviços Gerais -->
-   <url><loc>https://classibh.netlify.app/categorias/diarista</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/faxineira</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/eletricista</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/encanador</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/pedreiro</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/pintor</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/tecnico-ar-condicionado</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/mecanico</loc><priority>0.9</priority></url>
-   <url><loc>https://classibh.netlify.app/categorias/jardineiro</loc><priority>0.9</priority></url>
+    <!-- MANUTENÇÃO E REPAROS -->
+    <url><loc>https://classibh.netlify.app/?q=Diarista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Faxineira</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Eletricista</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Encanador</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Pedreiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Pintor</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=T%C3%A9cnico%20de%20ar-condicionado</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Mec%C3%A2nico</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://classibh.netlify.app/?q=Jardineiro</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 
 </urlset>
